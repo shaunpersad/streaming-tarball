@@ -1,12 +1,26 @@
 {
   "name": "streaming-tarball",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Streaming interface for decoding tarballs on modern JavaScript runtimes",
   "author": "Shaun Persad <shaunpersad@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/shaunpersad/streaming-tarball/issues"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaunpersad/streaming-tarball.git"
+  },
+  "keywords": [
+    "tar",
+    "tarball",
+    "streaming",
+    "webstream",
+    "stream",
+    "cloudflare workers",
+    "deno",
+    "bun"
+  ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
