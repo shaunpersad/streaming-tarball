@@ -46,8 +46,8 @@ const stream = response.body.pipeThrough(new DecompressionStream('gzip'));
 for await (const obj of extract(stream)) {
   if (obj.header.type === TAR_OBJECT_TYPE_FILE && obj.header.size < 100_000) {
     console.log('file found:', obj.header.name, 'body:', await obj.text());
-    continue;
+  } else {
+    await discard();
   }
-  await discard();
 }
 ```
