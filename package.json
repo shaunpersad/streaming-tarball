@@ -1,6 +1,6 @@
 {
   "name": "streaming-tarball",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Streaming interface for decoding tarballs on modern JavaScript runtimes",
   "author": "Shaun Persad <shaunpersad@gmail.com>",
   "license": "MIT",
